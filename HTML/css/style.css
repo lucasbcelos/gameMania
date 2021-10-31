@@ -4,27 +4,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-
-header {
-    background-color: #3C8EDA;
-    height: 100px;
-
 }
 
 .container_grid {
     width: 1600px;
     margin: 0 auto;
-
 }
+
+/* Inicio do Header */
+
+header {
+    background-color: #3C8EDA;
+    height: 100px;
+}
+
 
 .posic_header {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .menu {
@@ -41,6 +40,10 @@ header {
     font-size: 30px;
 }
 
+/* Fim do Header */
+
+/* Inicio do Banner */
+
 .banner {
     background-color: black;
     height: 600px;   
@@ -55,12 +58,18 @@ header {
 }
 
 
-
 .texto_banner {
     color: white;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    
+    text-align: center;
+    font-weight: 300;
+        
 }
+
+/* Fim do Banner */
+
+/* Inicio sessão categorias */
 
 .categorias {
     background-color: #3C8EDA;
@@ -84,29 +93,130 @@ header {
     font-size: 30px;
 }
 
+
+/* Fim sessão categorias */
+
+/* Inicio sessão destaques */
+
 .destaques {
-    
+    background-color: white;
     height: 950px;
+}
+
+.posic_destaques {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+
+.posic_destaques h2 {
+    text-transform: uppercase;
+}
+
+.text_especial {
+background-color: black;
+color: white;
+display: flex;
+justify-self: center;
+padding: 20px 100px;
+border-radius: 15px;
+text-decoration: none;
+font-size: 30px;
+margin-bottom: 10px;
 }
 
 .produtos_destaques {
     display: flex;
-    height: 100%;
     justify-content: space-between;
+    align-items: center;
     
 }
 
-.prod_1_dest {
+.prod_dest {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 340px;
-    height: auto;
-    
-    
+    justify-content: center;       
 }
+
+
+/* trecho abaixo afim de aprendizado... Para visualizar como
+configura a imagem sem criar uma classe */
+
+/* .prod_dest img {
+
+    width: 380px;
+    height: auto;
+} */
+
+
+/* Fim classe destaques */
+
+/* Inicio Sessão Promoçoes */
+
 
 .promocoes {
     background-color: aquamarine;
     height: 950px;
+}
+
+.posic_promocoes {
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+
+.produtos_promocoes {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.prod_promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;       
+}
+.prod_promo img {
+
+    width: 380px;
+    height: auto;
+}
+
+
+/* Fim sessão promocoes */
+
+/* Inicio Sessão redes sociais */
+
+
+.redes_sociais {
+    background-color: white;
+    height: 450px;
+}
+
+.posic_sociais {
+    height: 100%;
+
+
+}
+
+
+/* Fim sessão redes sociais */
+
+/* Inicio Footer */
+
+footer {
+    background-color: #3C8EDA;
+    height: 450px;
+}
+
+.posic_footer {
+    height: 100%;
 }
