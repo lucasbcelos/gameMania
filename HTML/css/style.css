@@ -63,8 +63,7 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     text-align: center;
-    font-weight: 300;
-        
+    font-weight: 300;     
 }
 
 /* Fim do Banner */
@@ -74,7 +73,6 @@ header {
 .categorias {
     background-color: #3C8EDA;
     height: 100px;
-
 }
 
 .posic_categorias {
@@ -82,7 +80,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .posic_categorias a {
@@ -108,9 +105,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    
-   
+    align-items: center;  
 }
 
 .posic_destaques h2 {
@@ -118,39 +113,42 @@ header {
 }
 
 .text_especial {
-background-color: black;
-color: white;
-display: flex;
-justify-self: center;
-padding: 20px 100px;
-border-radius: 15px;
-text-decoration: none;
-font-size: 30px;
-margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .produtos_destaques {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .prod_dest {
     display: flex;
     flex-direction: column;
-    justify-content: center;       
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 0px 50px ;      
 }
 
-
-/* trecho abaixo afim de aprendizado... Para visualizar como
-configura a imagem sem criar uma classe */
-
-/* .prod_dest img {
-
-    width: 380px;
-    height: auto;
-} */
+.txt_itens_dest {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    
+}
 
 
 /* Fim classe destaques */
@@ -159,35 +157,60 @@ configura a imagem sem criar uma classe */
 
 
 .promocoes {
-    background-color: aquamarine;
+    background-color: black;
     height: 950px;
 }
 
 .posic_promocoes {
     height: 100%;
     display: flex;
-    justify-content:space-around;
-    
-    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.posic_promocoes h2 {
+    text-transform: uppercase;
+}
+
+.txt_promo {
+    background-color: #3C8EDA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .produtos_promocoes {
     display: flex;
-    height: 100%;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .prod_promo {
     display: flex;
     flex-direction: column;
-    justify-content: center;       
+    justify-content: baseline; 
+    align-items: center;
+    padding: 0px 50px ;  
+    height: 100%;    
 }
-.prod_promo img {
 
-    width: 380px;
-    height: auto;
+.txt_itens_prom {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;  
 }
 
 
@@ -203,9 +226,39 @@ configura a imagem sem criar uma classe */
 
 .posic_sociais {
     height: 100%;
-
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.posic_sociais h3 {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 0 50px 0;
+}
+
+.posic_icon_soci {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.posic_sociais p {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
 
 
 /* Fim sessão redes sociais */
@@ -219,4 +272,60 @@ footer {
 
 .posic_footer {
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.coluna1 {
+    width: 100%;
+}
+
+.coluna2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    width: 100%;
+}
+
+.coluna3 {
+    width: 100%;
+}
+
+.coluna3 h4 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+}
+
+.imgs_pag {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.imgs_pag img {
+    align-self: center;
+    padding: 10px 20px;
+}
+
+.img_pix {
+    background-color: white;
+}
+
+.coluna3 p {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+    padding: 30px 0 0;   
+}
+
+/* Fim do Footer */
