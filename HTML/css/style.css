@@ -7,7 +7,8 @@
 }
 
 .container_grid {
-    width: 1600px;
+    max-width: 1600px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -190,6 +191,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .prod_promo {
@@ -312,7 +314,7 @@ footer {
 
 .imgs_pag img {
     align-self: center;
-    padding: 10px 20px;
+    margin: 10px 20px;
 }
 
 .img_pix {
