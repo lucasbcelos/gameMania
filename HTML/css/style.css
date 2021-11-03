@@ -27,8 +27,12 @@ header {
     align-items: center;
 }
 
+.posic_header img {
+    width: 90%;
+}
+
 .menu {
-    width: 800px;
+    width: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,7 +195,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .prod_promo {
@@ -331,3 +334,190 @@ footer {
 }
 
 /* Fim do Footer */
+
+
+
+/* Inicio Pagina de Contato */
+
+/* Sessão Contato */
+
+.contato {
+    background-color: black;
+    height: 100%;
+    padding: 100px;
+}
+
+.posic_contato {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.pos_info_cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.col1_info_cont h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 900;
+    padding: 10px 0 0;
+    text-transform: uppercase;   
+}
+
+.col1_info_cont a {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    color: #3C8EDA;
+    text-decoration: none; 
+}
+
+.col2_info_cont ol {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;   
+    padding: 10px 0px 0px;
+    font-weight: bold;
+}
+
+.col2_info_cont li {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    color: white; 
+    padding-left: 90px;  
+}
+
+form {
+    background-color: #3C8EDA;
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+}
+
+.form_linha1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;   
+    padding: 30px 0px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#name {
+    width: 30%;
+}
+
+#email {
+    width: 50%;
+}
+
+.form_linha2 {
+    font-size: 30px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    color: white;   
+    padding: 10px 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+
+.form_linha3 {
+    font-size: 30px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    color: white;   
+    padding: 20px 20px ;
+    display: flex;
+    justify-content:flex-end; 
+}
+
+.form_linha3 input {
+    padding: 0px 40px;
+}
+
+/* Fim da sessão de Contatos */
+
+/* Fim da Página de Contatos */
+
+
+
+
+/* Inicio página Celulares */
+
+.celulares {
+    background-color: black;
+    height: 100%;
+    padding: 100px 0px;
+}
+
+.posic_celulares {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.posic_celulares h2 {
+    text-transform: uppercase;
+}
+
+.txt_cel {
+    background-color: #3C8EDA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.produtos_celulares {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prod_cel {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline; 
+    align-items: center;
+    padding: 0px 50px ;
+    margin: 50px 0px;  
+    height:450px ;
+    width: 330px;    
+}
+
+.txt_itens_cel {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 10px;
+}
+
