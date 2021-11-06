@@ -62,6 +62,12 @@ header {
     flex-flow: column wrap;
 }
 
+.imagem_banner_1 {
+    width: 50%;
+}
+.imagem_banner_2 {
+    width: 40%;
+}
 
 .texto_banner {
     color: white;
@@ -505,8 +511,14 @@ form {
     align-items: center;
     padding: 0px 50px ;
     margin: 50px 0px;  
-    height:450px ;
+    height:400px ;
     width: 330px;    
+}
+
+.img_cel img{
+    height:320px ;
+    width: 300px; 
+   
 }
 
 .txt_itens_cel {
@@ -521,3 +533,157 @@ form {
     padding-top: 10px;
 }
 
+/* Fim da Página Celulares */
+
+
+/* Inicio Pagina Destaques */
+
+
+.pag_destaques {
+    background-color: black;
+    height: 100%;
+    padding: 100px 0px;
+}
+
+.posic_pag_destaques {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.posic_pag_destaques h2 {
+    text-transform: uppercase;
+}
+
+.txt_pag_destaques {
+    background-color: #3C8EDA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.produtos_pag_destaques {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prod_pag_dest {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline; 
+    align-items: center;
+    padding: 0px 50px ;
+    margin: 50px 0px;  
+    height:450px ;
+    width: 430px;  
+}
+
+.img_pag_dest img{
+    height:320px ;
+    width: 300px; 
+    background-color: white;  
+    
+}
+
+.txt_itens_pag_dest {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 10px;
+}
+
+/* Fim Pagina Destaques */
+
+/* Inicio Pagina Promocoes */
+
+.pag_Promocoes {
+    background-color: black;
+    height: 100%;
+    padding: 100px 0px;
+}
+
+.posic_pag_promocoes {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.posic_pag_promocoes h2 {
+    text-transform: uppercase;
+}
+
+.txt_pag_prmocoes {
+    background-color: #3C8EDA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.produtos_pag_promocoes {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prod_pag_promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline; 
+    align-items: center;
+    padding: 0px 50px ;
+    margin: 50px 0px;  
+    height:450px ;
+    width: 430px;  
+}
+
+.img_pag_promo img{
+    height:320px ;
+    width: 300px; 
+    background-color: white;  
+    
+}
+
+.txt_itens_pag_promo {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 10px;
+}
+
+
+
+
+/* Fim Pagina Promocoes */
