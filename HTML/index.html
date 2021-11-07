@@ -11,19 +11,20 @@
 
 <body>
     <header>
-        <div class="container container_grid posic_header">
+        <div class="container_grid posic_header">
             <a href="index.html"><img src="img/logo.svg" alt="logo GameMania" ></a>  
             <nav class="menu">
                 <a href="contato.html">Contato </a>
                 <a href="#">Minha Conta </a>
                 <a href="#">Sobre </a>
                 <a href="#">Carrinho </a>
-            </div>
-        </nav>
+            </nav>
+            <a href="#" class="bars"><img src="img/bars-solid.svg" alt="Menu de barras"></a>
+        </div>
     </header>
     
     <div class="banner">
-        <div class="container_grid posic_banner ">
+            <div class="container_grid posic_banner ">
             <img class="imagem_banner_1" src="img/img_banner-1.png" alt="Imagem principal do banner, um controle de videogame">
             <img class="imagem_banner_2" src="img/img_banner-2.png" alt="Imagem secundaria do banner, um notebook com uma imagem colorida">
             <h1 class="texto_banner"> Tudo Para Você Que Ama Games <br> e Tecnologia!</h1>
@@ -32,11 +33,13 @@
 
     <div class="categorias " >
         <nav class="posic_categorias  container_grid">
-            <a href="celulares.html">Celulares</a>
-            <a href="#">Notebook</a>
-            <a href="#">Óculos VR</a>
-            <a href="#">Pc Gamer</a>
-            <a href="#">Videogames</a>
+            <a class="setas" href="#" ><img src="img/angle-left-solid.svg" alt="Seta esquerda"></a>
+            <a class="itens_categ" href="celulares.html">Celulares</a>
+            <a class="itens_categ" href="#">Notebook</a>
+            <a class="itens_categ" href="#">Óculos VR</a>
+            <a class="itens_categ" href="#">Pc Gamer</a>
+            <a class="itens_categ" href="#">Videogames</a>
+            <a class="setas" href="#" ><img src="img/angle-right-solid.svg" alt="Seta direita"></a>
         </nav>
     </div>
 
@@ -48,19 +51,19 @@
             <div class = produtos_destaques>
                 <div class = prod_dest>   
                     <a href="#"><img src="img/img_iphone12.png" alt="Iphone"></a>
-                    <a class="txt_itens_dest" href="#">Novo Apple iPhone 12 Pro Max <br> R$ 8.899,90</a>
+                    <a class="txt_itens_dest" href="#">Novo Apple iPhone 12 Pro Max - R$ 8.899,90</a>
                 </div>
                 <div class = prod_dest>
                     <a href="#"><img src="img/img_notebook.png" alt="notebook"></a>
-                    <a class="txt_itens_dest" href="#">Notebook Dell Inspiron <br> i15-3501-A45P 15.6" <br> R$ 4.689,00</a>  
+                    <a class="txt_itens_dest" href="#">Notebook Dell Inspiron i15-3501-A45P 15.6" - R$ 4.689,00</a>  
                 </div>
                 <div class = prod_dest>
                     <a href="#"><img src="img/img_playstation5.png" alt="Iphone"></a>
-                    <a class="txt_itens_dest" href="#">Playstation 5 <br> R$ 5.699,90 </a>
+                    <a class="txt_itens_dest" href="#">Playstation 5 - R$ 5.699,90 </a>
                 </div>
-                <div class = prod_dest>
+                <div class = "prod_dest prod_sumir">
                     <a href="#"><img src="img/img_pc_gamer_i7.png" alt="Iphone"></a>
-                    <a class="txt_itens_dest" href="#">Pc Gamer Completo I7 16gb Ssd <br> 120gb HD 1TB Placa De Video <br> R$ 8.449,00</a>
+                    <a class="txt_itens_dest" href="#">Pc Gamer Completo I7 16gb Ssd 120gb HD 1TB Placa De Video - R$ 8.449,00</a>
                 </div>
             </div>
             <div>
@@ -87,7 +90,7 @@
                     <a  class="img_promo" href="#"><img src="img/img_pc_gamer_i3.png" alt="Pc gamer I3"></a>
                     <a  class="txt_itens_prom"href="#">Pc Gamer Completo i3 8gb HD 500 - R$ 4.099,50 </a>
                 </div>
-                <div class = prod_promo>
+                <div class = "prod_promo prod_sumir" >
                     <a class="img_promo" href="#"><img src="img/img_xbox_seriesS.png" alt="Console Xbox Series S"></a>
                     <a class="txt_itens_prom" href="#"> Xbox Series S - R$ 2.639,99</a>
                 </div>
@@ -100,7 +103,7 @@
 
     <section class="redes_sociais">
         <div class="posic_sociais container_grid">
-            <div>
+            <div class="col1_red_soc">
                 <div>
                     <h3>Conheça Nossas Redes Socias!</h3>
                 </div>
@@ -109,8 +112,8 @@
                     <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram icone.png" alt="icone do instagram" ></a>
                 </div>
             </div>
-            <div>
-                <p> Conteúdos exclusivos para você ficar <br> por dentro do universo de games e <br> tecnologia!</p>
+            <div class="text_redes_soc">
+                <p> Conteúdos exclusivos para você ficar por dentro do universo de games e tecnologia!</p>
             </div>
         </div>
     </section>
@@ -131,11 +134,11 @@
                     <h4>Formas de Pagamento</h4>
                 </div>
                 <div class="imgs_pag">
-                    <div>
+                    <div class="lin1">
                         <img src="img/elo-logo-1-1.png" alt="Elo">
                         <img src="img/visa-logo-8.png" alt="Visa ">
                     </div>
-                    <div>
+                    <div class="lin2">
                         <img class="img_pix" src="img/pix-bc-logo.png" alt="Pix">
                         <img src="img/mastercard-logo.png" alt="MasterCard">
                     </div>

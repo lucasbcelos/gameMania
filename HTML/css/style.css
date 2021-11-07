@@ -45,6 +45,16 @@ header {
     font-size: 30px;
 }
 
+.bars {
+    display: none;
+
+}
+
+.bars img {
+    width:40px;
+    color: white;
+}
+
 /* Fim do Header */
 
 /* Inicio do Banner */
@@ -58,7 +68,7 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-flow: column wrap;
 }
 
@@ -72,9 +82,10 @@ header {
 .texto_banner {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    font-weight: 300;     
+    font-weight: 300;   
+    padding-top: 15px; 
 }
 
 /* Fim do Banner */
@@ -101,6 +112,14 @@ header {
     font-size: 30px;
 }
 
+.setas {
+    display: none;
+}
+
+.posic_categorias img {
+    width: 30px;
+}
+
 
 /* Fim sessão categorias */
 
@@ -113,6 +132,7 @@ header {
 
 .posic_destaques {
     height: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -147,7 +167,14 @@ header {
     flex-direction: column;
     justify-content: flex-end; 
     align-items: center;
-    padding: 0px 50px ;      
+    margin: 0px 25px ;
+    max-width: 100%;  
+    width: 90%;    
+}
+
+.prod_dest img {
+    width: fit-content;
+    width: 100%;
 }
 
 .txt_itens_dest {
@@ -158,6 +185,7 @@ header {
     color: black;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap-reverse;
     
 }
 
@@ -201,6 +229,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;    
+
 }
 
 .prod_promo {
@@ -208,8 +238,14 @@ header {
     flex-direction: column;
     justify-content: baseline; 
     align-items: center;
-    padding: 0px 50px ;  
+    padding: 0px 25px ;  
     height: 100%;    
+
+}
+
+.img_promo img {
+    width: fit-content;
+    width: 100%;
 }
 
 .txt_itens_prom {
@@ -242,9 +278,14 @@ header {
     align-items: center;
 }
 
+
+.col1_red_soc {
+    width: 50%;
+}
+
 .posic_sociais h3 {
     font-weight: 900;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -258,15 +299,32 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+    
+}
+
+.posic_icon_soci img{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.text_redes_soc {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .posic_sociais p {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-end;
+    max-width: 50%;
+    padding-top: 10px;
     
 }
 
@@ -292,8 +350,13 @@ footer {
     width: 100%;
 }
 
+.coluna1 img {
+    width: 90%;
+    
+}
+
 .coluna2 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -306,7 +369,7 @@ footer {
 }
 
 .coluna3 h4 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -314,11 +377,21 @@ footer {
 }
 
 .imgs_pag {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     padding: 30px;
+}
+
+.lin1 {
+    display: flex;
+    justify-content: space-around;
+}
+.lin2 {
+    display: flex;
+    justify-content: space-around;
 }
 
 .imgs_pag img {
@@ -331,7 +404,7 @@ footer {
 }
 
 .coluna3 p {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -369,9 +442,12 @@ footer {
     padding-bottom: 50px;
 }
 
+.col1_info_cont  {
+   width: 100%;   
+}
 .col1_info_cont h2 {
     font-size: 30px;
-    text-align: center;
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: 900;
@@ -387,6 +463,13 @@ footer {
     text-decoration: none; 
 }
 
+.col2_info_cont  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+}
 .col2_info_cont ol {
     font-size: 25px;
     text-align: center;
@@ -394,6 +477,7 @@ footer {
     color: white;   
     padding: 10px 0px 0px;
     font-weight: bold;
+    max-width: 80%;
 }
 
 .col2_info_cont li {
@@ -401,7 +485,7 @@ footer {
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     color: white; 
-    padding-left: 90px;  
+    
 }
 
 form {
@@ -685,3 +769,526 @@ form {
 
 
 /* Fim Pagina Promocoes */
+
+/* Inicio layout Responsivo */
+
+@media screen and (max-width: 1600px) {
+    .banner {
+        height: 500px;
+    }
+    
+    .destaques {
+        height: 800px;
+    }
+    
+    .prod_dest img {
+        width: 90%;
+    }
+    
+    .txt_itens_dest {
+        font-size: 16px;
+    }
+
+    .promocoes {
+        height: 800px;
+    }
+    
+    .img_promo img {
+        width: 90%;
+    }
+    
+    .txt_itens_prom {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .banner {
+        height: 400px;
+    }
+    
+    .destaques {
+        height: 700px;
+    }
+    .promocoes {
+        height: 700px;
+    }
+
+    footer {
+        height: 400px;
+    }
+    .coluna1 img {
+        width: 80%;
+    }
+    .coluna2 {
+        font-size: 20px;
+    }
+
+    .coluna3 h4 {
+        font-size: 20px;
+    }
+
+    .imgs_pag {
+        padding: 10px;
+    }
+
+    .imgs_pag img {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .coluna3 p {
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .prod_sumir {
+        display: none;
+    }
+
+    .posic_sociais h3 {
+        font-size: 25px;
+    }
+    
+    .posic_icon_soci img{
+        width: 70%;
+        padding: 0 15px;
+    }
+
+    .posic_sociais p {
+        font-size: 25px;
+    }
+
+    .form_linha1 {
+        font-size: 20px;
+    }
+    #name {
+        width: 30%;
+    }
+    
+    #email {
+        width: 40%;
+    }
+    .form_linha2 {
+        font-size: 20px;
+    }
+    .form_linha3 {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .posic_header img {
+        width: 80%;
+    }
+    
+    .menu a {
+        font-size: 20px;
+    }
+    
+    .banner {
+        height: 350px;
+    }
+    
+    .texto_banner {
+        font-size: 20px;
+    }
+    
+    .posic_categorias a {
+        font-size: 20px;
+    }
+    
+    .text_especial {
+        font-size: 20px;
+    }
+    .txt_promo {
+        font-size: 20px;
+    }
+    .destaques {
+        height: 600px;
+    }
+    .promocoes {
+        height: 600px;
+    }
+
+    .redes_sociais {
+        height: 300px;
+    }
+
+    .posic_sociais h3 {
+        font-size: 20px;
+    }
+    
+    .posic_icon_soci img{
+        width: 50%;
+        padding: 5px;
+    }
+
+    .posic_sociais p {
+        font-size: 20px;
+    }
+
+    footer {
+        height: 300px;
+    }
+    .coluna1 img {
+        width: 80%;
+    }
+    .coluna2 {
+        font-size: 16px;
+    }
+
+    .coluna3 h4 {
+        font-size: 16px;
+    }
+
+    .imgs_pag {
+        padding: 5px;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    
+    .imgs_pag img {
+        width: 25%;
+        margin: 5px;
+      
+    }
+
+    .coluna3 p {
+        font-size: 16px;
+    }
+
+
+    /* pag contato */
+
+    .pos_info_cont {
+        flex-direction: column;
+        
+    }
+
+    .col1_info_cont  {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 25px;
+    }
+
+
+    /* pag destaques */
+    
+    .produtos_pag_destaques {
+        justify-content: space-around;
+
+    }
+
+    .txt_pag_destaques {
+        font-size: 20px;
+        padding: 20px 80px;
+    }
+    
+    /* pag promo */
+
+    .produtos_pag_promocoes {
+        justify-content: space-around;
+
+    }
+
+    .txt_pag_prmocoes {
+        font-size: 20px;
+        padding: 20px 80px;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .banner {
+        height: 300px;
+    }
+    
+    .destaques {
+        height: 500px;
+    }
+    .promocoes {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .bars {
+        display: inline-block;
+    }
+    
+    .bars img {
+        width: 40px;
+    }
+
+    .banner {
+        background-image: url(../img/banner\ fundo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .imagem_banner_1 {
+        display: none;
+    }
+    
+    .imagem_banner_2 {
+        display: none;
+    }
+
+    .texto_banner {
+        font-size: 40px;
+        font-weight: 100;
+    }
+    
+    .itens_categ {
+        display: none;
+    }
+    
+    .setas {
+        display: inline-block;
+    }
+    
+    /* sessão destaques */
+    
+    .destaques {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .text_especial {
+        font-size: 20px;
+        padding: 15px 50px
+    }
+    
+    .produtos_destaques {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .prod_dest {
+        padding: 15px;
+    }
+    
+    /* sessão promoções */
+    
+    .promocoes {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .txt_promo {
+        font-size: 20px;
+        padding: 15px 50px
+    }
+
+    .produtos_promocoes {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .prod_promo {
+        padding: 15px;
+    }
+    
+    
+    /* redes sociais */
+
+    .redes_sociais {
+        height: auto;
+        padding: 30px;
+    }
+    
+    .posic_sociais {
+        flex-direction: column;
+        padding: 20 0px;
+        
+    }
+
+    .col1_red_soc {
+        width: 90%;
+    }
+    
+    .posic_icon_soci {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .text_redes_soc {
+        justify-content: center;
+        
+    }
+    .posic_sociais p {
+        max-width: 80%;
+    }
+
+    
+
+    /* footer */
+    
+    footer {
+        height: auto;
+    }
+    
+    .posic_footer {
+        flex-direction: column;
+    }
+    
+    .coluna1 {
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .coluna1 img {
+        width: 50%;
+        
+    }
+    
+    .coluna2 {
+        padding: 25px 0;
+    }
+    
+    .coluna3 h4 {
+        padding: 20px 0;
+    }
+    
+    .coluna3 p {
+        padding: 20px 0;
+    }
+    
+
+    /* pag contato */
+
+    .contato {
+        padding: 50px 0;
+    }
+    
+    .col1_info_cont  {
+        width: 100%;
+    }
+    
+    .col1_info_cont h2  {
+        font-size: 20px;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .col1_info_cont a  {
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .col2_info_cont  {
+        width: 90%;
+        
+    }
+    .col2_info_cont ol {
+        font-size: 20px;
+        text-align: center;
+        padding: 0px;
+        
+    }
+    .col2_info_cont li  {
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+    }
+
+
+    .form_linha1 {
+        font-size: 16px;
+    }
+    #name {
+        width: 30%;
+    }
+    
+    #email {
+        width: 40%;
+    }
+    .form_linha2 {
+        font-size: 16px;
+    }
+    .form_linha3 {
+        font-size: 16px;
+    }
+
+    /* celulares */
+
+    .txt_cel {
+        font-size: 20px;
+        padding: 20px 40px ;
+    }
+
+    .produtos_celulares {
+        justify-content: space-around;
+    }
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .texto_banner {
+        font-size: 30px;
+        
+    }
+    
+    .posic_sociais h3 {
+        font-size: 16px;
+    }
+    .posic_sociais p {
+        font-size: 16px;
+    }
+    .coluna1 {
+        padding: 25px;
+        
+    }
+    .coluna1 img {
+        width: 70%;
+        
+        
+    }
+    .form_linha1 {
+        flex-direction: column;
+        align-items: baseline;
+        padding-left: 20px;
+    }
+    #name {
+        width: 94%;
+    }
+    
+    #email {
+        width: 94%;
+    }
+ 
+    .txt_cel {
+        font-size: 16px;
+        padding: 20px 30px ;
+    }
+
+    .img_cel img{
+        height:270px ;
+        width: 250px; 
+       
+    }
+
+
+}
