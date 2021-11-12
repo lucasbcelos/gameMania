@@ -112,9 +112,12 @@ header {
     font-size: 30px;
 }
 
-.setas {
+
+
+.item_disp_peq {
     display: none;
 }
+
 
 .posic_categorias img {
     width: 30px;
@@ -1054,14 +1057,26 @@ form {
         font-size: 40px;
         font-weight: 100;
     }
+
+    .posic_categorias {
+        justify-content: space-around;
+    }
+
+    .posic_categorias a {
+        font-size: 40px;
+    }
     
     .itens_categ {
         display: none;
     }
     
-    .setas {
+    .item_disp_peq {
         display: inline-block;
+       
     }
+    
+
+   
     
     /* sessão destaques */
     
